@@ -1,0 +1,33 @@
+html{
+    background-color:rgb(102, 87, 199);
+}
+
+
+.flex-h1{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: center;
+    gap: 15px
+}
+
+.small-image{
+    width: 25px;
+}
+
+.big-image{
+    width: 80%;
+}
+
+@media only screen and (max-width : 600px){
+
+body {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    display: none;
+}
+}
