@@ -16,7 +16,7 @@ To start off, create a folder in which you will work on your project. In this fo
 
 Now we are ready to start coding our website !
 ## Making the PASTA website
-Do not forget to tell the computer that your are in HTML and to link the HTML and CSS files ! Here is what I wrote for my website, try to keep the same structure and to make the same classes to understand the responsive part.
+Do not forget to tell the computer that your are in HTML and to link the HTML and CSS files ! Here is what I wrote for my website, try to keep the same structure and to make the same classes to understand the responsive part. The website is very simple because we want to demonstrate how to put responsive, not how to make a beautiful website. It's a simple recipe on how to make pasta !
 
 Basic HTML structure :
 ```HTML
@@ -31,10 +31,101 @@ Basic HTML structure :
 ```
 
 HTML Code :
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Make a good pasta dish !</title>
+    <link rel="icon" href="./assets/website-pasta-icon.png">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div>
+        <div class="flex-h1">
+            <p class="Head1">Dishes</p>
+            <p class="Head1">Nutrients</p>
+            <img class="small-image" alt="IconApps" src="https://cdn.iconscout.com/icon/free/png-256/apps-3114467-2598245.png">
+            <p class="SignIn">Help</p>
+        </div>
+    </div>
+    <div>
+        <h2> Welcome to my website, i'm gonna show you how to make a delicious pasta dish !</h2>
+    </div>
+    <div>
+        <img class="big-image" alt="Pasta1" src="./assets/pasta1.jpg" width="600px" height="300px">
+    </div>
+    <div>
+        <h3>Origin</h3>
+        <p>Carbonara is one of Rome's four classic pastas (cacio e pepe, amatriciana, and gricia are the others). There are a slew of theories about its possible origins, including:
+
+            It was invented by Italian carbonari (charcoal workers) who prepared the dish on their shovels over a fire.
+            The name refers to the ground black pepper in the dish that resembles flecks of coal (carbone means charcoal in Italian).
+            It was a marrying of traditions between American soldiers in Italy during World War II and their bacon and egg rations with the local pasta dishes.</p>
+    </div>
+    <div>
+        <h3>Ingredients</h3>
+        <div>
+            <p>Pasta</p>
+        </div>
+        <div>
+            <p>Salt</p>
+        </div>
+        <div>
+            <p>Eggs</p>
+        </div>
+        <div>
+            <p>meta</p>
+        </div>
+    </div>
+        <h3>How to make</h3>
+        <p>
+            Add bacon and water to a skillet and bring to a simmer
+        </p>
+        <p> Continue simmering until water is evaporated, then continue to cook the bacon until crispy.
+        </p>
+        <p> Remove bacon from pan and reserve the drippings.
+                Saute garlic in that same skillet until golden brown, then add to a bowl with 1 tablespoon bacon fat, eggs, egg yolk, Parmesan and pepper. Mix well
+        </p>
+        <p>Meanwhile, cook the spaghetti or linguine pasta     until al dente. Once cooked, drain pasta and reserve 1 cup of the cooking water.
+        Slowly pour the hot cooking water into the egg mixture. Then pour over the hot pasta and toss to coat. Add crumbled bacon.
+        </p>
+        <p>
+        Let pasta rest for a few minutes, tossing frequently until the carbonara sauce thickens. Serve immediately with a sprinkle of fresh parsley.
+        </p>
+    </div>
+</body>
+</html>
+```
+
 
 CSS Code :
+```CSS
+html{
+    background-color:rgb(102, 87, 199);
+}
+
+
+.flex-h1{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    align-items: center;
+    gap: 15px
+}
+
+.small-image{
+    width: 25px;
+}
+
+.big-image{
+    width: 80%;
+}
+```
 
 What the user sees on the Browser :
+
+![Screenshot1](https://github.com/DeltaDave12/readme-project/blob/main/assets/Screenshot2.JPG)
 ## Put responsive into the PASTA project
 # Documentation
 # Conclusion
