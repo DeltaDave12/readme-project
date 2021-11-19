@@ -126,7 +126,40 @@ html{
 What the user sees on the Browser :
 
 ![Screenshot1](https://github.com/DeltaDave12/readme-project/blob/main/assets/Screenshot2.JPG)
+
 ## Put responsive into the PASTA project
+
+To put responsive on our website, we must add media queries which is a coding technique to add responsivness to our website ! We are gonna put off the images of the website and center our elements when the page is lower than 600px.
+
+Add CSS code for responsivness : 
+```css
+@media only screen and (max-width : 600px){
+
+body {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    display: none;
+}
+}
+```
+
+The "@media" part is the one that puts responsivness. If you put it in your code, you will see the results as we previously wanted !
+
 # Documentation
+Download VS Code : https://code.visualstudio.com/download
+Download Google Chrome : https://www.google.fr/chrome/?brand=CHBD&gclid=CjwKCAiAs92MBhAXEiwAXTi258cCpu4vCuVUoblktOwAQJc7k6bC-kp-dqB4qVlV4lkHI3YKap2_EBoC1WYQAvD_BwE&gclsrc=aw.ds
+Info on media queries : https://www.w3schools.com/Css/css3_mediaqueries_ex.asp
+General questions : https://stackoverflow.com/
+More information about html and css : https://www.w3schools.com/html/default.asp
+The code and ressources are in this directory !
 # Conclusion
+
+As you can see, putting responsivness isn't that hard but we've just touched the tip of the iceberg. Yes responsivness is when the page adapts to its width and height but fro some it's also when an element has a hoover or when some items work differtently with oder conditions. In all honesty, the bigger part will be to desingn a front and back-end with organisation for your website. Have a nice day and thank you for reading !
 ## A big thank you to...
+nesrine toumi
+EFREI Paris
+StackOverflow and webmdocs
