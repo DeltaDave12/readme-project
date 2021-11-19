@@ -9,10 +9,33 @@ You need these things to make a responsive website, you can change some software
 - Some space on your hard-drive
 - A mouse (or mousepad), keyboard, hands and a brain :)
 # The PASTA project
+## Setting up our project
 To start off, create a folder in which you will work on your project. In this folder, you will create another folder for CSS, fonts, image (in general we name it assets), inside create your CSS file (name it stlyles to avoid confusion), then make an html file which is your website (again, named generally index.html). You should have something like below : 
 
-![Screenshot1](D:\IMPORTANT\EFREI\HTML\Redaction\projet readme\PASTA-PROJECT\assets\Screenshot1)
+![Screenshot1](https://github.com/DeltaDave12/readme-project/blob/main/assets/Screenshot1.JPG)
+
+Now we are ready to start coding our website !
+## Making the PASTA website
+Do not forget to tell the computer that your are in HTML and to link the HTML and CSS files ! Here is what I wrote for my website, try to keep the same structure and to make the same classes to understand the responsive part.
+
+Basic HTML structure :
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>Make a good pasta dish</title>
+</head>
+<body>
+</body>
+</html>
+```
+
+HTML Code :
+
+CSS Code :
+
+What the user sees on the Browser :
 ## Put responsive into the PASTA project
-## Documentation
-## Conclusion
+# Documentation
+# Conclusion
 ## A big thank you to...
